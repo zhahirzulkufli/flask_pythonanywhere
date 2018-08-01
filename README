@@ -1,0 +1,11 @@
+Point the run.py file
+
+Find and edit file from this directory /var/www/{{username}}_pythonanywhere_com_wsgi.py
+
+Go to line:
+# import flask app but need to call it "application" for WSGI to work
+from flask_app import app as application
+
+Change flask_app to run
+
+Save and reload the web
